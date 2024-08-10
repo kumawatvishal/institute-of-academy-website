@@ -1,0 +1,432 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: black;
+}
+a{
+    color: inherit;
+    font-size: inherit;
+    text-decoration: inherit;
+}
+.full-page{
+    width: 1000px;
+    /* height: 1080px; */
+    margin: auto;
+    background-color:  #fff;
+}
+.row-main-1{
+    width: 1000px;
+    height: 159px;
+    background: url(images/headerbg.jpg);
+}
+.main-logo{
+    margin-top: 0px;
+    margin-left: 38px;
+    float: left;
+}
+.top-manu-contact{
+    float: right;
+    width: 300px;
+    height: 159px;
+    margin-top: 25px;
+    margin-right: 25px;
+    color: #FFF;
+    font-size: 18px;
+    background: url(images/topcontactbg.png) no-repeat;
+}
+.top-1{
+    height: 35px;
+    width: 215px;
+    border-bottom: 1px #085b92 dotted;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+.top-2{
+    height: 30px;
+    width: 215px;
+    border-bottom: 1px #085b92 dotted;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+.top-3{
+    height: 35px;
+    width: 215px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.main-manu{
+    width: 1000px;
+    height: 43px;
+    background: url(images/menubg.jpg);
+    border-bottom: 5px solid #fff;
+}
+.main-manu-items{
+    float: left;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border: solid 1px #2966ab;
+}
+.main-manu-items:hover{
+    transition: 2s;
+    background: #031d3b;
+}
+.main-row-3{
+    width: 1000px;
+    height: 290px;
+    background-color: #2b77a0;
+    border-bottom: 5px solid #fff;
+}
+.main-row-3-left{
+    width: 192px;
+    height: 242px;
+    margin: 10px 20px 0px 20px;
+    background: #fff;
+    padding: 14px;
+    float: left;
+    padding-top: 14px;
+    border: 1px solid black;
+}
+.row-3-left-nevigation{
+    width: 198px;
+    height: 39px;
+    padding-top: 7px;
+    border-bottom: 1px dotted #cdcdcd;
+}
+.row-3-icon{
+    float: left;
+    margin-right: 5px;
+}
+.row-3-bullet{
+    float: left;
+    font-size: 18px;
+    color: #286f95;
+}
+.main-row-3-center{
+    width: 16px;
+    float: left;
+}
+.main-row-3-right{
+    width: 674px;
+    height: 262px;
+    margin: 14px 0px;
+    padding-left: 8px;
+    float: left;
+}
+.row-4{
+    width: 1000px;
+    height: 281px;
+}
+.row-4-left{
+    width: 231px;
+    height: 254px;
+    margin: 12px 0px 12px 0px;
+    padding-left: 23px;
+    padding-right: 15px;
+    border-right: 1px solid #e0e0e0;
+    float: left;
+}
+.our-company{
+    width: 231px;
+    height: 42px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.wscubetech-log{
+    width: 215px;
+    height: 61px;
+    padding: 15px 10px 15px 5px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.website{
+    width: 231px;
+    height: 38px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.website-icon{
+    float: left;
+    margin-right: 5px;
+    margin-top: 8px;
+    color: #6d6d6d;
+}
+.website-text{
+    float: left;
+    margin-top: 8px;
+    color: #6d6d6d;
+}
+.website-no-border{
+    width: 231px;
+    height: 38px;
+}
+.row-4-right{
+    width: 675px;
+    height: 256px;
+    padding: 0px 25px 7px 25px;
+    margin-top: 15px;
+    float: left;
+}
+.para{
+    width: 675px;
+    height: 35px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.p1{
+    float: left; 
+    color: rgb(116, 119, 115);
+    margin-right: 5px;
+    font-size: 18px;
+}
+.p2{float: left; 
+    color: #286f95; 
+    font-weight: bold;
+    font-size: 18px;
+}
+.para-2{
+    font-size: 12px;
+    padding-top: 15px;
+    color: #818181;
+}
+.row-5{
+    width: 960px;
+    height: 179px;
+    padding: 20px;
+    margin-top: 35px;
+    background: url(images/footerbg.jpg) no-repeat;
+}
+.row-5-left{
+    width: 280px;
+    height: 152px;
+    padding: 0px 15px 25px 0px;
+    float: left;
+}
+.quick-links-text{
+    width: 270px;
+    height: 35px;
+    font-size: 18px;
+    padding-top: 5px;
+    color: white;
+    border-bottom: 1px dotted #3287af;
+}
+.quick-links-left{
+    margin-top: 10px;
+    float: left;
+    color: white;
+}
+.bullet-items{
+    width: 136px;
+    height: 15px;
+    margin-right: 3px;
+    margin-bottom: 10px;
+    float: left;
+}
+.img-1{
+    float: left;
+}
+.text-1{
+    float: left;
+    margin-left: 5px;
+    font-size: 11px;
+    font-family: Verdana;
+}
+.quick-links-right{
+    float: left;
+    color: white;
+}
+.row-5-center{
+    width: 286px;
+    height: 152px;
+    padding: 0px 25px 25px 25px;
+    float: left;
+}
+.row-5-right{
+    width: 286px;
+    height: 152px;
+    padding: 0px 0px 25px 25px;
+    float: left;
+}
+.quick-location{
+    width: 270px;
+    height: 35px;
+    font-size: 18px;
+    padding-top: 5px;
+    color: white;
+    border-bottom: 1px dotted #3287af;
+}
+.quick-location-text{
+    font-family: "Myriad Pro";
+    font-style: italic;
+    font-size: 12px;
+    color: #3aa4d2;
+    padding: 10px 0px;
+    border-bottom: 1px solid #0d4964;
+}
+.social-media{
+    width: 270px;
+    height: 90px;
+}
+.follow-us{
+    width: 70px;
+    height: 42px;
+    font-size: 18px;
+    font-style: italic;
+    float: left;
+    color: #4cb8e8;
+    padding: 15px 0px 0px 15px;
+    /* border-right: 1px solid #0d4964; */
+}
+.follow-us-icon{
+    width: 152px;
+    height: 46px;
+    background: url(images/my.png) no-repeat;
+    float: left;
+}
+.row-6{
+    width: 1000px;
+    height: 50px;
+    background: #033a53;
+    margin: auto;
+    border-top: 1px dotted #3287af;
+}
+.copyright{
+    color: white;
+    font-size: 14px;
+    padding-top: 18px;
+    padding-left: 20px;
+    float: left;
+}
+.copyright-2{
+    color: white;
+    float: right;
+    font-size: 14px;
+    padding-top: 18px;
+    padding-right: 20px;
+}
+/* About IIP Academy */
+.main-row-3-left-new{
+    width: 192px;
+    height: 242px;
+    margin: 15px 20px 20px 20px;
+    background: #fff;
+    padding: 14px;
+    border: 1px solid black;
+}
+.row-4-left-new{
+    width: 184px;
+    height: 278px;
+    margin: 12px 0px 12px 20px;
+    padding-left: 23px;
+    padding-right: 15px;
+    background-color: #fff;
+}
+.our-company-new{
+    width: 190px;
+    height: 42px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.wscubetech-log-new{
+    width: 171px;
+    height: 61px;
+    padding: 15px 10px 15px 5px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.website{
+    width: 184px;
+    height: 38px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.website-icon-new{
+    float: left;
+    margin-right: 5px;
+    margin-top: 8px;
+    color: #6d6d6d;
+}
+.website-text-new{
+    float: left;
+    margin-top: 8px;
+    color: #6d6d6d;
+}
+.website-no-border-new{
+    width: 231px;
+    height: 38px;
+}
+.main-row-3-new{
+    width: 1000px;
+    height: 603px;
+}
+.main-row-3-left-side{
+    width: 280px;
+    height: 630px;
+    background: #2b77a0;
+    float: left;
+}
+.main-row-3-right-side{
+    width: 718px;
+    height: 630px;
+    float: left;
+}
+.main-row-top-content{
+    width: 675px;
+    height: 20px;
+    padding: 15px 0px;
+    margin: 0px 20px;
+    font-size: 18px;
+    color: #747773;
+    border-bottom: 1px solid #e0e0e0;
+}
+.about-pages-texts{
+    font-size: 18px;
+    color: #747773;
+    padding: 8px 0px;
+    margin: 0px 20px;
+}
+.about-page-heading-3{
+    font-size: 18px;
+    padding: 10px 0px;
+    margin: 0px 20px;
+}
+.about-page-list{
+    font-size: 18px;
+    padding: 10px 0px;
+    margin-left: 37px; 
+    color: #747773;
+}
+/* Courses Page */
+.corses-page-list{
+    margin-left: 20px;
+    font-size: 18px;
+    color: #747773;
+}
+/* Gallery Page */
+.gallery-main{
+    margin-top: 15px;
+}
+.Gallery-row-1{
+    width: 675px;
+    height: 180px;
+    margin: 0px 20px;
+}
+.gallery-row-a{
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin: 0px 12px 20px 12px;
+}
+/* contact page */
+.contat-us-text{
+    margin: 20px 20px;
+}
+.contact-us-details{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.details-a{
+    float: left;
+    font-weight: bold;
+}
+.details-b{
+    float: left;
+    margin-left: 5px;
+}
